@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      background: orange;
+      width: 200px;
+      height:300px;
+      justify-content: flex-end;
+      border-radius: 95px 95px 0 0;
+      padding: 20px 0;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      border: 2px solid orangered;
+    }
+
+    .button {
+      padding: 15px;
+      margin: 10px auto;
+      width: 120px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 18px;
+      border-radius: 5px;
+      box-shadow: 10px 10px 10px rgba(227, 223, 223, 0.76);
+    }
+
+    .mca { background-color: red; color: white; border:2px dotted darkred}
+    .bca { background-color: yellow; color: black;border:2px dotted white }
+    .bba { background-color: green; color: yellow;border:2px dotted darkgreen }
+  </style>
+
+
+  <div class="container">
+    <div class="button mca">MCA</div>
+    <div class="button bca">BCA</div>
+    <div class="button bba">BBA</div>
+  </div>
+    
+</body>
+</html>
